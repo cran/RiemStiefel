@@ -24,7 +24,7 @@
 #' st.utestR(mydat, method='original')
 #' st.utestR(mydat, method='modified')
 #' 
-#' \dontrun{
+#' \donttest{
 #' ## empirical Type 1 error using the same setting as above.
 #' niter   = 10000
 #' counter = rep(0,niter)  # record p-values

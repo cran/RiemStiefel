@@ -10,15 +10,15 @@
   this.version = packageVersion("RiemStiefel")
   
   ## Print on Screen
-  packageStartupMessage("**------------------------------------------------------------------------**")
+  packageStartupMessage("**--------------------------------------------------------------**")
   packageStartupMessage("** RiemStiefel ")
-  packageStartupMessage("** - Tools for Inference, Learning, and Optimization on Stiefel Manifold")
+  packageStartupMessage("** - Inference, Learning, and Optimization on Stiefel Manifold")
   packageStartupMessage("**")
   packageStartupMessage("** Version    : ",this.version,"      (",this.year,")",sep="")
   packageStartupMessage("** Maintainer : Kisung You (kyoustat@gmail.com)")
   packageStartupMessage("**")
   packageStartupMessage("** Please share any bugs or suggestions to the maintainer.")
-  packageStartupMessage("**------------------------------------------------------------------------**")
+  packageStartupMessage("**--------------------------------------------------------------**")
 }
 
 .onUnload <- function(libpath) {

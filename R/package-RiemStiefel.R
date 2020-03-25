@@ -9,7 +9,7 @@
 #' @name RiemStiefel
 #' @importFrom utils packageVersion
 #' @importFrom RiemBase riemfactory
-#' @importFrom RiemBaseExt rstat.frechet
+#' @importFrom RiemBaseExt rstat.frechet rclust.hclust rstat.pdist
 #' @importFrom stats rnorm runif cov
 #' @importFrom Rcpp evalCpp
 #' @useDynLib RiemStiefel
